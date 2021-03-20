@@ -1,0 +1,66 @@
+:root {
+  --primaryColor: #ef4444;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.App {
+  font-family: sans-serif;
+}
+.navbar {
+  background-color: var(--primaryColor);
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navbar span {
+  color: white;
+  padding-right: 1rem;
+  font-size: 1.75rem;
+  font-family: "Berkshire Swash";
+}
+.maincontent {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.maincontent input {
+  padding: 1rem;
+  text-align: center;
+  max-width: 60%;
+  width: 60%;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+.maincontent span {
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.list {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list p {
+  font-weight: bold;
+}
+.symbols {
+  max-width: 60%;
+  width: 350px;
+  padding-right: 2rem;
+}
+.listItem {
+  font-size: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
